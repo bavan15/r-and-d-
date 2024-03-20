@@ -10,12 +10,5 @@ from .neural_prophet import Neural_Prophet
 
 
 MODELS = {'random_forest': RandomForest,
-          'sarimax': Sarimax,
-          'orbit': Orbit,
-          'lstm': MyLSTM,
-          'gru': MyGRU,
-          'arima': MyARIMA,
-          'prophet': MyProphet,
           'xgboost': MyXGboost,
-          'neural_prophet': Neural_Prophet
           }
